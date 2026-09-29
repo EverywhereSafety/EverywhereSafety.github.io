@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://everywheresafety.github.io/turngate/sitemap.xml
