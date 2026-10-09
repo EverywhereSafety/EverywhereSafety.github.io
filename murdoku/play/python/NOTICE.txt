@@ -1,0 +1,4 @@
+Pyodide 314.0.7 (Mozilla Public License 2.0)
+Source: https://github.com/pyodide/pyodide/tree/314.0.7
+CPython 3.14: https://github.com/python/cpython/tree/v3.14.0
+Unmodified browser runtime distributed by the Pyodide project.
