@@ -1,0 +1,785 @@
+{
+ "schema": "murdoku.play_library/1",
+ "cases": [
+  {
+   "id": "tutorial",
+   "kind": "tutorial",
+   "title": "Elementary",
+   "blurb": "Everyone came for the anniversary. Someone came for something else.",
+   "setting": {
+    "id": "manor",
+    "name": "Training case"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 5,
+   "accent": "#3d6a5b",
+   "goal_type": "murderer",
+   "content_hash": "bdc00b96d4d72fbc",
+   "thumb": "tutorial.thumb.svg",
+   "url": "tutorial.json"
+  },
+  {
+   "id": "glasshouse",
+   "kind": "classic",
+   "title": "The Glasshouse Affair",
+   "blurb": "Six guests. A quiet house. One story that doesn't quite add up.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick House"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": null,
+    "label": "Classic",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "people": 6,
+   "rooms": 5,
+   "accent": null,
+   "goal_type": "murderer",
+   "content_hash": "58fb36f5bebe4db6",
+   "thumb": "glasshouse.thumb.svg",
+   "url": "glasshouse.json"
+  },
+  {
+   "id": "lily-pond",
+   "kind": "classic",
+   "title": "A Ripple in the Garden",
+   "blurb": "A garden party, interrupted. Follow the chairs around the grounds.",
+   "setting": {
+    "id": null,
+    "name": "Alderwick Gardens"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": null,
+    "label": "Classic",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 4,
+   "accent": null,
+   "goal_type": "murderer",
+   "content_hash": "e471484f3cf10744",
+   "thumb": "lily-pond.thumb.svg",
+   "url": "lily-pond.json"
+  },
+  {
+   "id": "last-place",
+   "kind": "classic",
+   "title": "The Last Known Place",
+   "blurb": "Six guests. A quiet house. One story that doesn't quite add up.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick House"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": null,
+    "label": "Classic",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "people": 6,
+   "rooms": 5,
+   "accent": null,
+   "goal_type": "victim_cell",
+   "content_hash": "d327550a13c79155",
+   "thumb": "last-place.thumb.svg",
+   "url": "last-place.json"
+  },
+  {
+   "id": "estate",
+   "kind": "classic",
+   "title": "The Winter Garden Masquerade",
+   "blurb": "The music has stopped. Sixteen guests, eleven spaces, and alibis that overlap.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick House & Grounds"
+   },
+   "size": "16×16",
+   "difficulty": {
+    "band": null,
+    "label": "Classic",
+    "minutes": [
+     480,
+     2880
+    ]
+   },
+   "people": 16,
+   "rooms": 11,
+   "accent": "#3d6a5b",
+   "goal_type": "murderer",
+   "content_hash": "ae95a26b66350e46",
+   "thumb": "estate.thumb.svg",
+   "url": "estate.json"
+  },
+  {
+   "id": "museum",
+   "kind": "classic",
+   "title": "The Museum After Hours",
+   "blurb": "Twenty-four people remain after closing. Follow their statements through fifteen museum rooms.",
+   "setting": {
+    "id": "museum",
+    "name": "The Antiquities Museum"
+   },
+   "size": "24×24",
+   "difficulty": {
+    "band": null,
+    "label": "Classic",
+    "minutes": [
+     480,
+     2880
+    ]
+   },
+   "people": 24,
+   "rooms": 15,
+   "accent": "#8e2c32",
+   "goal_type": "murderer",
+   "content_hash": "0817fe2c9cf0ddd5",
+   "thumb": "museum.thumb.svg",
+   "url": "museum.json"
+  },
+  {
+   "id": "chalet-6x6",
+   "kind": "themed",
+   "title": "Snowed In",
+   "blurb": "Eight guests, one blizzard and a weekend that nobody will ever forget.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 3,
+   "accent": "#a23b2c",
+   "goal_type": "murderer",
+   "content_hash": "0ee2cf0e88a55ad0",
+   "thumb": "chalet-6x6.thumb.svg",
+   "url": "chalet-6x6.json"
+  },
+  {
+   "id": "chalet-7x7",
+   "kind": "themed",
+   "title": "Fondue for Eight",
+   "blurb": "The pass is closed, the phone line is down, and someone at the lodge has very cold blood.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 4,
+   "accent": "#a23b2c",
+   "goal_type": "murderer",
+   "content_hash": "550bb4e8c449e773",
+   "thumb": "chalet-7x7.thumb.svg",
+   "url": "chalet-7x7.json"
+  },
+  {
+   "id": "chalet-8x8",
+   "kind": "themed",
+   "title": "The Last Lift Down",
+   "blurb": "The pass is closed, the phone line is down, and someone at the lodge has very cold blood.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 5,
+   "accent": "#a23b2c",
+   "goal_type": "murderer",
+   "content_hash": "7e07605c5448434a",
+   "thumb": "chalet-8x8.thumb.svg",
+   "url": "chalet-8x8.json"
+  },
+  {
+   "id": "glasshouse-6x6",
+   "kind": "themed",
+   "title": "Deadly Nightshade",
+   "blurb": "Tea on the lawn, prizes for the best marrow and a guest who never came back from the greenhouses.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 4,
+   "accent": "#2f7d5f",
+   "goal_type": "murderer",
+   "content_hash": "4cf6bb6db23627d9",
+   "thumb": "glasshouse-6x6.thumb.svg",
+   "url": "glasshouse-6x6.json"
+  },
+  {
+   "id": "glasshouse-7x7",
+   "kind": "themed",
+   "title": "The Midsummer Bloom",
+   "blurb": "The rarest bloom in the country is about to open, and someone will not live to see it.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 5,
+   "accent": "#2f7d5f",
+   "goal_type": "murderer",
+   "content_hash": "c84cdc20ec3fed30",
+   "thumb": "glasshouse-7x7.thumb.svg",
+   "url": "glasshouse-7x7.json"
+  },
+  {
+   "id": "glasshouse-8x8",
+   "kind": "themed",
+   "title": "The Poison Garden",
+   "blurb": "Everything here is carefully cultivated, including a grudge that has been growing for years.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 6,
+   "accent": "#2f7d5f",
+   "goal_type": "murderer",
+   "content_hash": "4dd0b24e31a9693e",
+   "thumb": "glasshouse-8x8.thumb.svg",
+   "url": "glasshouse-8x8.json"
+  },
+  {
+   "id": "library-6x6",
+   "kind": "themed",
+   "title": "Out of Print",
+   "blurb": "Quiet, please. Somebody in this college is about to get away with murder.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 5,
+   "accent": "#7d2a2e",
+   "goal_type": "murderer",
+   "content_hash": "000e213b408a2df2",
+   "thumb": "library-6x6.thumb.svg",
+   "url": "library-6x6.json"
+  },
+  {
+   "id": "library-7x7",
+   "kind": "themed",
+   "title": "The Missing Manuscript",
+   "blurb": "The bell has rung for dinner. One scholar is still among the books, and will be for ever.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 5,
+   "accent": "#7d2a2e",
+   "goal_type": "murderer",
+   "content_hash": "804614d282372238",
+   "thumb": "library-7x7.thumb.svg",
+   "url": "library-7x7.json"
+  },
+  {
+   "id": "library-8x8",
+   "kind": "themed",
+   "title": "A Study in Ink",
+   "blurb": "Quiet, please. Somebody in this college is about to get away with murder.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 5,
+   "accent": "#7d2a2e",
+   "goal_type": "murderer",
+   "content_hash": "a4db2e9e1990f1b0",
+   "thumb": "library-8x8.thumb.svg",
+   "url": "library-8x8.json"
+  },
+  {
+   "id": "liner-6x6",
+   "kind": "themed",
+   "title": "The Purser's Ledger",
+   "blurb": "A maiden voyage, a fortune in the purser's safe and a guest list that did not add up.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 4,
+   "accent": "#1e5a7a",
+   "goal_type": "murderer",
+   "content_hash": "545ee46a2094a79e",
+   "thumb": "liner-6x6.thumb.svg",
+   "url": "liner-6x6.json"
+  },
+  {
+   "id": "liner-7x7",
+   "kind": "themed",
+   "title": "Calm Seas, Cold Hearts",
+   "blurb": "Champagne on the upper deck, fog on the water, and a scream that nobody admits to hearing.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 6,
+   "accent": "#1e5a7a",
+   "goal_type": "murderer",
+   "content_hash": "d61908dd28ab9e54",
+   "thumb": "liner-7x7.thumb.svg",
+   "url": "liner-7x7.json"
+  },
+  {
+   "id": "liner-8x8",
+   "kind": "themed",
+   "title": "Last Dance Before Landfall",
+   "blurb": "Five days at sea, a famous family aboard, and one passenger who will not reach port.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 5,
+   "accent": "#1e5a7a",
+   "goal_type": "murderer",
+   "content_hash": "ba29c4f0d6fe7504",
+   "thumb": "liner-8x8.thumb.svg",
+   "url": "liner-8x8.json"
+  },
+  {
+   "id": "manor-6x6",
+   "kind": "themed",
+   "title": "The Last Toast at Alderwick",
+   "blurb": "A country house, a reading of the will, and one guest who never came down to supper.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 4,
+   "accent": "#3d6a5b",
+   "goal_type": "murderer",
+   "content_hash": "732a340c49c3f6bf",
+   "thumb": "manor-6x6.thumb.svg",
+   "url": "manor-6x6.json"
+  },
+  {
+   "id": "manor-7x7",
+   "kind": "themed",
+   "title": "A Will Read at Midnight",
+   "blurb": "A country house, a reading of the will, and one guest who never came down to supper.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 4,
+   "accent": "#3d6a5b",
+   "goal_type": "murderer",
+   "content_hash": "16e68f5180b4cca4",
+   "thumb": "manor-7x7.thumb.svg",
+   "url": "manor-7x7.json"
+  },
+  {
+   "id": "manor-8x8",
+   "kind": "themed",
+   "title": "Dust on the Keys",
+   "blurb": "The clocks were wound, the silver polished, and by morning the house had a new heir.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 5,
+   "accent": "#3d6a5b",
+   "goal_type": "murderer",
+   "content_hash": "82672717c6ba2f9c",
+   "thumb": "manor-8x8.thumb.svg",
+   "url": "manor-8x8.json"
+  },
+  {
+   "id": "museum-6x6",
+   "kind": "themed",
+   "title": "The Curse of the Golden Mask",
+   "blurb": "The doors were locked at midnight. When they opened again, the guest list was one name shorter.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 5,
+   "accent": "#8e2c32",
+   "goal_type": "murderer",
+   "content_hash": "acb8285aad14dee7",
+   "thumb": "museum-6x6.thumb.svg",
+   "url": "museum-6x6.json"
+  },
+  {
+   "id": "museum-7x7",
+   "kind": "themed",
+   "title": "Night of the Long Gala",
+   "blurb": "Champagne, speeches, and a priceless collection that someone was willing to kill for.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 4,
+   "accent": "#8e2c32",
+   "goal_type": "murderer",
+   "content_hash": "ce789ec14fe17047",
+   "thumb": "museum-7x7.thumb.svg",
+   "url": "museum-7x7.json"
+  },
+  {
+   "id": "museum-8x8",
+   "kind": "themed",
+   "title": "Murder Most Antique",
+   "blurb": "Every artefact has a story. Tonight one of the guests became part of the collection.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 6,
+   "accent": "#8e2c32",
+   "goal_type": "murderer",
+   "content_hash": "7370b608566a3373",
+   "thumb": "museum-8x8.thumb.svg",
+   "url": "museum-8x8.json"
+  },
+  {
+   "id": "theatre-6x6",
+   "kind": "themed",
+   "title": "Curtain Call for a Corpse",
+   "blurb": "Everyone in the company knows their lines. Somebody also knew their cue.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 4,
+   "accent": "#9b2335",
+   "goal_type": "murderer",
+   "content_hash": "e5ef0aeae2ec3e25",
+   "thumb": "theatre-6x6.thumb.svg",
+   "url": "theatre-6x6.json"
+  },
+  {
+   "id": "theatre-7x7",
+   "kind": "themed",
+   "title": "A Tragedy in Three Acts",
+   "blurb": "Everyone in the company knows their lines. Somebody also knew their cue.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 4,
+   "accent": "#9b2335",
+   "goal_type": "murderer",
+   "content_hash": "8ddc7b54a73c034c",
+   "thumb": "theatre-7x7.thumb.svg",
+   "url": "theatre-7x7.json"
+  },
+  {
+   "id": "theatre-8x8",
+   "kind": "themed",
+   "title": "The Understudy's Big Chance",
+   "blurb": "Applause, encores and a final scene that was never in the script.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 4,
+   "accent": "#9b2335",
+   "goal_type": "murderer",
+   "content_hash": "5e4d795b2a5e9327",
+   "thumb": "theatre-8x8.thumb.svg",
+   "url": "theatre-8x8.json"
+  },
+  {
+   "id": "train-6x6",
+   "kind": "themed",
+   "title": "Signal Failure",
+   "blurb": "Snow on the tracks, candles at supper and a secret in every compartment.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "people": 6,
+   "rooms": 3,
+   "accent": "#2f5c48",
+   "goal_type": "murderer",
+   "content_hash": "027214b6e8217673",
+   "thumb": "train-6x6.thumb.svg",
+   "url": "train-6x6.json"
+  },
+  {
+   "id": "train-7x7",
+   "kind": "themed",
+   "title": "End of the Line",
+   "blurb": "Snow on the tracks, candles at supper and a secret in every compartment.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "people": 7,
+   "rooms": 4,
+   "accent": "#2f5c48",
+   "goal_type": "murderer",
+   "content_hash": "75bc976307644aaf",
+   "thumb": "train-7x7.thumb.svg",
+   "url": "train-7x7.json"
+  },
+  {
+   "id": "train-8x8",
+   "kind": "themed",
+   "title": "Change at Vienna",
+   "blurb": "The train departed on time. Somewhere between two countries, one passenger stopped breathing.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "people": 8,
+   "rooms": 4,
+   "accent": "#2f5c48",
+   "goal_type": "murderer",
+   "content_hash": "7fbc07d58213b425",
+   "thumb": "train-8x8.thumb.svg",
+   "url": "train-8x8.json"
+  }
+ ]
+}
