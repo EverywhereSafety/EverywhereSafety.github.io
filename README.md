@@ -22,9 +22,13 @@ Then open <http://localhost:8000>.
 - `/ea-privacy/`
 - `/immerse-privacy/`
 
-Murdoku Lab's interactive frontend is a separate Python service. The static
-project page introduces the game and links to code, queries and Blog. A future
-Play service can use `/play/` as its entry point or a custom domain.
+Murdoku Lab's playable casebook lives at `/murdoku/play/` and runs its Python
+engine in the browser. The 24×24 museum case opens at
+`/murdoku/play/?case=museum`.
+
+Rebuild it from the `murdoku-lab` repository with `python scripts/build_play.py`,
+then copy its `dist/` output into `murdoku/play/`. The bundle includes the native
+engine, built-in cases, artwork and locally hosted Pyodide runtime.
 
 Blog articles are built from the EverywhereSafety `blog` repository with
 `python build.py --output ../EverywhereSafety.github.io/blog`.
