@@ -20,7 +20,7 @@
 <p>We are fans of Murdoku. A board full of characters, objects and little clues can keep us busy for hours. We wanted more cases to play. Could we build a workshop that keeps making them, with new settings and clues, and the same care for how a puzzle comes together?</p>
 <p>That is what we are building with <strong>Murdoku Lab</strong>. It generates detective puzzles, verifies their solutions and turns them into playable cases. You can also export each case as a text or visual query for an agent.</p>
 <p><a href="https://everywheresafety.github.io/murdoku/play/">Play a case</a> · <a href="https://github.com/EverywhereSafety/murdoku-lab">GitHub</a> · <a href="https://huggingface.co/datasets/EverywhereSafety/murdoku-lab">Queries and rollouts</a></p>
-<p><a href="https://everywheresafety.github.io/murdoku/play/"><img alt="The playable Murdoku Lab casebook, with a board, characters and clues" src="assets/play-preview.png" /></a></p>
+<p><a href="https://everywheresafety.github.io/murdoku/play/"><img alt="The Murdoku player, with an illustrated board, characters and clues" src="assets/play-preview.png" /></a></p>
 <h2 id="how-we-solved-the-contest">How we solved the contest</h2>
 <p>The Treasure Hunt has a 24×24 island, 23 people and a hidden treasure. Ships, cabins, clothing and objects all matter to the clues.</p>
 <p>Our <a href="https://huggingface.co/EverywhereSafety/murdoku-detective-4b">Murdoku Detective 4B</a>, trained on generated Murdoku puzzles, read the PDF, transcribed the map and clues, and wrote an OR-Tools CP-SAT program to solve the puzzle.</p>

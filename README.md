@@ -22,13 +22,20 @@ Then open <http://localhost:8000>.
 - `/ea-privacy/`
 - `/immerse-privacy/`
 
-Murdoku Lab's playable casebook lives at `/murdoku/play/` and runs its Python
-engine in the browser. The 24×24 museum case opens at
-`/murdoku/play/?case=museum`.
+The Murdoku player lives at `/murdoku/play/`: the generated collection, daily cases,
+training and hints. The 24×24 museum opens at `/murdoku/play/?case=museum`.
+The research casebook, with its browser Python engine, lives at `/murdoku/play/lab/`.
+Legacy `/murdoku/exp/` links redirect to the player, preserving query parameters and hashes.
 
-Rebuild it from the `murdoku-lab` repository with `python scripts/build_play.py`,
-then copy its `dist/` output into `murdoku/play/`. The bundle includes the native
-engine, built-in cases, artwork and locally hosted Pyodide runtime.
+Rebuild from the `murdoku-lab` repository with:
+
+```bash
+python scripts/build_play.py --site-url https://everywheresafety.github.io/murdoku/play/
+```
+
+Replace `murdoku/play/` with the contents of `dist/`. This complete build includes
+30 library cases, 14 locked daily cases, artwork and the Lab's locally hosted Pyodide
+runtime. Keep the compatibility redirects under `murdoku/exp/`.
 
 Blog articles are built from the EverywhereSafety `blog` repository with
 `python build.py --output ../EverywhereSafety.github.io/blog`.
