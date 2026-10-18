@@ -1,0 +1,371 @@
+{
+ "schema": "murdoku.daily_manifest/1",
+ "season": "s01",
+ "epoch": "2026-10-12",
+ "days": [
+  {
+   "n": 1,
+   "id": "daily-1",
+   "date": "2026-10-12",
+   "weekday": "monday",
+   "special": null,
+   "title": "A Thorn in the Side",
+   "blurb": "The rarest bloom in the country is about to open, and someone will not live to see it.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "67dd9182adfb7d47",
+   "thumb": "daily-1.thumb.svg",
+   "url": "daily-1.json"
+  },
+  {
+   "n": 2,
+   "id": "daily-2",
+   "date": "2026-10-13",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Murder on the Black Run",
+   "blurb": "Eight guests, one blizzard and a weekend that nobody will ever forget.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "6915445dd26f2e70",
+   "thumb": "daily-2.thumb.svg",
+   "url": "daily-2.json"
+  },
+  {
+   "n": 3,
+   "id": "daily-3",
+   "date": "2026-10-14",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "The Long Weekend",
+   "blurb": "Rain against the windows, a fire in every grate, and a family that cannot agree on anything.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "3d60e1b7985c4999",
+   "thumb": "daily-3.thumb.svg",
+   "url": "daily-3.json"
+  },
+  {
+   "n": 4,
+   "id": "daily-4",
+   "date": "2026-10-15",
+   "weekday": "thursday",
+   "special": null,
+   "title": "Death Between the Lines",
+   "blurb": "The bell has rung for dinner. One scholar is still among the books, and will be for ever.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "062471be047dcb6a",
+   "thumb": "daily-4.thumb.svg",
+   "url": "daily-4.json"
+  },
+  {
+   "n": 5,
+   "id": "daily-5",
+   "date": "2026-10-16",
+   "weekday": "friday",
+   "special": null,
+   "title": "The Night Express",
+   "blurb": "Snow on the tracks, candles at supper and a secret in every compartment.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "75cb371c7a369f41",
+   "thumb": "daily-5.thumb.svg",
+   "url": "daily-5.json"
+  },
+  {
+   "n": 6,
+   "id": "daily-6",
+   "date": "2026-10-17",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Opening Night, Closing Act",
+   "blurb": "Everyone in the company knows their lines. Somebody also knew their cue.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "4db337a25511bf29",
+   "thumb": "daily-6.thumb.svg",
+   "url": "daily-6.json"
+  },
+  {
+   "n": 7,
+   "id": "daily-7",
+   "date": "2026-10-18",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Five Days to Southampton",
+   "blurb": "Champagne on the upper deck, fog on the water, and a scream that nobody admits to hearing.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "986cece0fe1c007b",
+   "thumb": "daily-7.thumb.svg",
+   "url": "daily-7.json"
+  },
+  {
+   "n": 8,
+   "id": "daily-8",
+   "date": "2026-10-19",
+   "weekday": "monday",
+   "special": null,
+   "title": "Murder at Midnight",
+   "blurb": "The train departed on time. Somewhere between two countries, one passenger stopped breathing.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "6b4d2e6dbe6fea08",
+   "thumb": "daily-8.thumb.svg",
+   "url": "daily-8.json"
+  },
+  {
+   "n": 9,
+   "id": "daily-9",
+   "date": "2026-10-20",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Overdue",
+   "blurb": "Quiet, please. Somebody in this college is about to get away with murder.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "45c02be22f5fa6b3",
+   "thumb": "daily-9.thumb.svg",
+   "url": "daily-9.json"
+  },
+  {
+   "n": 10,
+   "id": "daily-10",
+   "date": "2026-10-21",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Dust and Diamonds",
+   "blurb": "Every artefact has a story. Tonight one of the guests became part of the collection.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "c853c1c30f218331",
+   "thumb": "daily-10.thumb.svg",
+   "url": "daily-10.json"
+  },
+  {
+   "n": 11,
+   "id": "daily-11",
+   "date": "2026-10-22",
+   "weekday": "thursday",
+   "special": null,
+   "title": "The Quiet Inheritance",
+   "blurb": "Rain against the windows, a fire in every grate, and a family that cannot agree on anything.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "7d88ca856f983bbe",
+   "thumb": "daily-11.thumb.svg",
+   "url": "daily-11.json"
+  },
+  {
+   "n": 12,
+   "id": "daily-12",
+   "date": "2026-10-23",
+   "weekday": "friday",
+   "special": null,
+   "title": "The Avalanche Weekend",
+   "blurb": "By the time the snowploughs arrive, the lodge will have one guest fewer.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "76a84994d8f77bb0",
+   "thumb": "daily-12.thumb.svg",
+   "url": "daily-12.json"
+  },
+  {
+   "n": 13,
+   "id": "daily-13",
+   "date": "2026-10-24",
+   "weekday": "saturday",
+   "special": null,
+   "title": "The Captain's Table",
+   "blurb": "Five days at sea, a famous family aboard, and one passenger who will not reach port.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "eec4538f68b4bff3",
+   "thumb": "daily-13.thumb.svg",
+   "url": "daily-13.json"
+  },
+  {
+   "n": 14,
+   "id": "daily-14",
+   "date": "2026-10-25",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Roots of Evil",
+   "blurb": "The rarest bloom in the country is about to open, and someone will not live to see it.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "2844bcd15643aad2",
+   "thumb": "daily-14.thumb.svg",
+   "url": "daily-14.json"
+  }
+ ]
+}
