@@ -366,6 +366,942 @@
    "content_hash": "2844bcd15643aad2",
    "thumb": "daily-14.thumb.svg",
    "url": "daily-14.json"
+  },
+  {
+   "n": 15,
+   "id": "daily-15",
+   "date": "2026-10-26",
+   "weekday": "monday",
+   "special": null,
+   "title": "Black Tie, Red Herring",
+   "blurb": "The doors were locked at midnight. When they opened again, the guest list was one name shorter.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "84271e53ad0108dd",
+   "thumb": "daily-15.thumb.svg",
+   "url": "daily-15.json"
+  },
+  {
+   "n": 16,
+   "id": "daily-16",
+   "date": "2026-10-27",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "The Prompter's Secret",
+   "blurb": "Backstage, everyone has a motive. Out front, the audience is still applauding.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "8cad0e76107aa72c",
+   "thumb": "daily-16.thumb.svg",
+   "url": "daily-16.json"
+  },
+  {
+   "n": 17,
+   "id": "daily-17",
+   "date": "2026-10-28",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Murder at Sea",
+   "blurb": "Five days at sea, a famous family aboard, and one passenger who will not reach port.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "848cc4aae05d20eb",
+   "thumb": "daily-17.thumb.svg",
+   "url": "daily-17.json"
+  },
+  {
+   "n": 18,
+   "id": "daily-18",
+   "date": "2026-10-29",
+   "weekday": "thursday",
+   "special": null,
+   "title": "One Way Only",
+   "blurb": "Nobody gets off until morning, which is exactly what the killer was counting on.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "dc86f47566b0c66b",
+   "thumb": "daily-18.thumb.svg",
+   "url": "daily-18.json"
+  },
+  {
+   "n": 19,
+   "id": "daily-19",
+   "date": "2026-10-30",
+   "weekday": "friday",
+   "special": null,
+   "title": "The Uninvited Guest",
+   "blurb": "Fog over the lawns, a cold supper and a butler who saw more than anyone should.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "6b60980d8a66d1e4",
+   "thumb": "daily-19.thumb.svg",
+   "url": "daily-19.json"
+  },
+  {
+   "n": 20,
+   "id": "daily-20",
+   "date": "2026-10-31",
+   "weekday": "saturday",
+   "special": null,
+   "title": "A Cold Night for It",
+   "blurb": "The pass is closed, the phone line is down, and someone at the lodge has very cold blood.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "92dc6add2dea6414",
+   "thumb": "daily-20.thumb.svg",
+   "url": "daily-20.json"
+  },
+  {
+   "n": 21,
+   "id": "daily-21",
+   "date": "2026-11-01",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Seeds of Doubt",
+   "blurb": "The estate is famous for its rare specimens. Tonight it gains one more.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "91c279b4e04a4780",
+   "thumb": "daily-21.thumb.svg",
+   "url": "daily-21.json"
+  },
+  {
+   "n": 22,
+   "id": "daily-22",
+   "date": "2026-11-02",
+   "weekday": "monday",
+   "special": null,
+   "title": "Marginalia",
+   "blurb": "The bell has rung for dinner. One scholar is still among the books, and will be for ever.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "26ae20aae7832f95",
+   "thumb": "daily-22.thumb.svg",
+   "url": "daily-22.json"
+  },
+  {
+   "n": 23,
+   "id": "daily-23",
+   "date": "2026-11-03",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Death Among the Antiquities",
+   "blurb": "A new exhibition, a priceless jewel on loan and a guest who will not see it go home.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "0d2396dc16829472",
+   "thumb": "daily-23.thumb.svg",
+   "url": "daily-23.json"
+  },
+  {
+   "n": 24,
+   "id": "daily-24",
+   "date": "2026-11-04",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "The Atlantic Affair",
+   "blurb": "Champagne on the upper deck, fog on the water, and a scream that nobody admits to hearing.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "54f93a847d9d1e88",
+   "thumb": "daily-24.thumb.svg",
+   "url": "daily-24.json"
+  },
+  {
+   "n": 25,
+   "id": "daily-25",
+   "date": "2026-11-05",
+   "weekday": "thursday",
+   "special": null,
+   "title": "A Killing Frost",
+   "blurb": "The snow has buried the road, the lights keep flickering, and one guest is never going home.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "b75943d3b09ce2cc",
+   "thumb": "daily-25.thumb.svg",
+   "url": "daily-25.json"
+  },
+  {
+   "n": 26,
+   "id": "daily-26",
+   "date": "2026-11-06",
+   "weekday": "friday",
+   "special": null,
+   "title": "Port and Poison",
+   "blurb": "A country house, a reading of the will, and one guest who never came down to supper.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "227fc9dd97d24558",
+   "thumb": "daily-26.thumb.svg",
+   "url": "daily-26.json"
+  },
+  {
+   "n": 27,
+   "id": "daily-27",
+   "date": "2026-11-07",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Murder at the Matinee",
+   "blurb": "Everyone in the company knows their lines. Somebody also knew their cue.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "2570880a7dd237ff",
+   "thumb": "daily-27.thumb.svg",
+   "url": "daily-27.json"
+  },
+  {
+   "n": 28,
+   "id": "daily-28",
+   "date": "2026-11-08",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Running Late",
+   "blurb": "A diplomat, a jewel thief and a honeymooning couple: only some of them are what they seem.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "fd1fddaa55873e53",
+   "thumb": "daily-28.thumb.svg",
+   "url": "daily-28.json"
+  },
+  {
+   "n": 29,
+   "id": "daily-29",
+   "date": "2026-11-09",
+   "weekday": "monday",
+   "special": null,
+   "title": "Final Curtain",
+   "blurb": "Three acts, two intervals and one death that the audience mistook for the play.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "59b7418e276fcbcc",
+   "thumb": "daily-29.thumb.svg",
+   "url": "daily-29.json"
+  },
+  {
+   "n": 30,
+   "id": "daily-30",
+   "date": "2026-11-10",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "The Alderwick Affair",
+   "blurb": "The guests dressed for dinner. One of them dressed for murder.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "18a5026471ff8126",
+   "thumb": "daily-30.thumb.svg",
+   "url": "daily-30.json"
+  },
+  {
+   "n": 31,
+   "id": "daily-31",
+   "date": "2026-11-11",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Grafted",
+   "blurb": "The estate is famous for its rare specimens. Tonight it gains one more.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "e100231811d6fbdf",
+   "thumb": "daily-31.thumb.svg",
+   "url": "daily-31.json"
+  },
+  {
+   "n": 32,
+   "id": "daily-32",
+   "date": "2026-11-12",
+   "weekday": "thursday",
+   "special": null,
+   "title": "Death on the Night Crossing",
+   "blurb": "An heiress, a card sharp and a stowaway: someone aboard is not who they claim to be.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "714a0c3b74f63fb5",
+   "thumb": "daily-32.thumb.svg",
+   "url": "daily-32.json"
+  },
+  {
+   "n": 33,
+   "id": "daily-33",
+   "date": "2026-11-13",
+   "weekday": "friday",
+   "special": null,
+   "title": "A Private Collection",
+   "blurb": "The doors were locked at midnight. When they opened again, the guest list was one name shorter.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "a96636a35123f4a8",
+   "thumb": "daily-33.thumb.svg",
+   "url": "daily-33.json"
+  },
+  {
+   "n": 34,
+   "id": "daily-34",
+   "date": "2026-11-14",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Thin Ice",
+   "blurb": "The snow has buried the road, the lights keep flickering, and one guest is never going home.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "9f12421a52e1ac42",
+   "thumb": "daily-34.thumb.svg",
+   "url": "daily-34.json"
+  },
+  {
+   "n": 35,
+   "id": "daily-35",
+   "date": "2026-11-15",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Final Examination",
+   "blurb": "Somewhere in the college a rare first edition has vanished, and so has a fellow.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "b0ccdb919ac04b70",
+   "thumb": "daily-35.thumb.svg",
+   "url": "daily-35.json"
+  },
+  {
+   "n": 36,
+   "id": "daily-36",
+   "date": "2026-11-16",
+   "weekday": "monday",
+   "special": null,
+   "title": "The Alpine Alibi",
+   "blurb": "The pass is closed, the phone line is down, and someone at the lodge has very cold blood.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "2b5245060b1f1653",
+   "thumb": "daily-36.thumb.svg",
+   "url": "daily-36.json"
+  },
+  {
+   "n": 37,
+   "id": "daily-37",
+   "date": "2026-11-17",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Break a Leg",
+   "blurb": "A revival of an old melodrama, and a cast with a history nobody wants revived.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "8feeeb8e5ecbac96",
+   "thumb": "daily-37.thumb.svg",
+   "url": "daily-37.json"
+  },
+  {
+   "n": 38,
+   "id": "daily-38",
+   "date": "2026-11-18",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Fog off the Grand Banks",
+   "blurb": "A maiden voyage, a fortune in the purser's safe and a guest list that did not add up.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "20eea2bf5477eb63",
+   "thumb": "daily-38.thumb.svg",
+   "url": "daily-38.json"
+  },
+  {
+   "n": 39,
+   "id": "daily-39",
+   "date": "2026-11-19",
+   "weekday": "thursday",
+   "special": null,
+   "title": "A Matter of Record",
+   "blurb": "Centuries of learning, a college at war with itself and one very final examination.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "f6109922a4ee697b",
+   "thumb": "daily-39.thumb.svg",
+   "url": "daily-39.json"
+  },
+  {
+   "n": 40,
+   "id": "daily-40",
+   "date": "2026-11-20",
+   "weekday": "friday",
+   "special": null,
+   "title": "The Forger's Gambit",
+   "blurb": "A new exhibition, a priceless jewel on loan and a guest who will not see it go home.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "b3587b6c990a8c49",
+   "thumb": "daily-40.thumb.svg",
+   "url": "daily-40.json"
+  },
+  {
+   "n": 41,
+   "id": "daily-41",
+   "date": "2026-11-21",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Blooming Murder",
+   "blurb": "The rarest bloom in the country is about to open, and someone will not live to see it.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "7dc3d79ffce4d2bf",
+   "thumb": "daily-41.thumb.svg",
+   "url": "daily-41.json"
+  },
+  {
+   "n": 42,
+   "id": "daily-42",
+   "date": "2026-11-22",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Dinner Is Served",
+   "blurb": "An old feud, a new will and a long night when every door in the house was locked.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "e7dc515cbfe7f4bf",
+   "thumb": "daily-42.thumb.svg",
+   "url": "daily-42.json"
+  },
+  {
+   "n": 43,
+   "id": "daily-43",
+   "date": "2026-11-23",
+   "weekday": "monday",
+   "special": null,
+   "title": "Exhibit A",
+   "blurb": "The lights dim for the speeches. When they come up again, one of the patrons is dead.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "6c5584081d04983e",
+   "thumb": "daily-43.thumb.svg",
+   "url": "daily-43.json"
+  },
+  {
+   "n": 44,
+   "id": "daily-44",
+   "date": "2026-11-24",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Compost Mentis",
+   "blurb": "The estate is famous for its rare specimens. Tonight it gains one more.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "36d4e2350197d3a7",
+   "thumb": "daily-44.thumb.svg",
+   "url": "daily-44.json"
+  },
+  {
+   "n": 45,
+   "id": "daily-45",
+   "date": "2026-11-25",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Death at the Summit",
+   "blurb": "A ski champion, an old rival and a long night that only one of them survived.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "5d242539702c59ad",
+   "thumb": "daily-45.thumb.svg",
+   "url": "daily-45.json"
+  },
+  {
+   "n": 46,
+   "id": "daily-46",
+   "date": "2026-11-26",
+   "weekday": "thursday",
+   "special": null,
+   "title": "One Passenger Short",
+   "blurb": "Champagne on the upper deck, fog on the water, and a scream that nobody admits to hearing.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "b7cc9748c4586bb3",
+   "thumb": "daily-46.thumb.svg",
+   "url": "daily-46.json"
+  },
+  {
+   "n": 47,
+   "id": "daily-47",
+   "date": "2026-11-27",
+   "weekday": "friday",
+   "special": null,
+   "title": "The Black Sheep",
+   "blurb": "The guests dressed for dinner. One of them dressed for murder.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "dfdda06d30fe8ed8",
+   "thumb": "daily-47.thumb.svg",
+   "url": "daily-47.json"
+  },
+  {
+   "n": 48,
+   "id": "daily-48",
+   "date": "2026-11-28",
+   "weekday": "saturday",
+   "special": null,
+   "title": "The Show Must Go On",
+   "blurb": "Backstage, everyone has a motive. Out front, the audience is still applauding.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "c25acf63e939dd54",
+   "thumb": "daily-48.thumb.svg",
+   "url": "daily-48.json"
+  },
+  {
+   "n": 49,
+   "id": "daily-49",
+   "date": "2026-11-29",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Night Train to Nowhere",
+   "blurb": "Snow on the tracks, candles at supper and a secret in every compartment.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "442411bbe5faac89",
+   "thumb": "daily-49.thumb.svg",
+   "url": "daily-49.json"
+  },
+  {
+   "n": 50,
+   "id": "daily-50",
+   "date": "2026-11-30",
+   "weekday": "monday",
+   "special": null,
+   "title": "Footprints in the Snow",
+   "blurb": "Fresh powder on the slopes, mulled wine by the fire, and a quarrel that ended in murder.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "d793cda950a582ac",
+   "thumb": "daily-50.thumb.svg",
+   "url": "daily-50.json"
   }
  ]
 }
