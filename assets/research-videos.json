@@ -1,0 +1,54 @@
+{
+  "projects": {
+    "ea-privacy": {
+      "id": "f8NZ4bcyhLU",
+      "title": "Physical Privacy: What AI Sees vs. How It Acts | EAPrivacy & ImmersedPrivacy"
+    },
+    "immerse-privacy": {
+      "id": "f8NZ4bcyhLU",
+      "title": "Physical Privacy: What AI Sees vs. How It Acts | EAPrivacy & ImmersedPrivacy"
+    },
+    "cka-agent": {
+      "id": "XdL4yHHt7aA",
+      "title": "CKA-Agent: When Harmless Pieces Connect | The Trojan Knowledge"
+    },
+    "sead": {
+      "id": "oVsVQjsgr3c",
+      "title": "SEAD: State-Grounded Attacks and Defenses for Tool-Using Agents"
+    },
+    "turngate": {
+      "id": "GqC_OM0S0_k",
+      "title": "TurnGate: Safety Depends on Timing | One Turn Too Late"
+    }
+  },
+  "featured": {
+    "EAPrivacy": {
+      "id": "f8NZ4bcyhLU",
+      "title": "Physical Privacy: What AI Sees vs. How It Acts | EAPrivacy & ImmersedPrivacy"
+    },
+    "ImmersedPrivacy": {
+      "id": "f8NZ4bcyhLU",
+      "title": "Physical Privacy: What AI Sees vs. How It Acts | EAPrivacy & ImmersedPrivacy"
+    },
+    "E-CommerceBench": {
+      "id": "j3fjfxpy57Y",
+      "title": "E-Commerce Bench: A Year in Business for AI Agents | Qwen Technical Report"
+    },
+    "CKA-Agent": {
+      "id": "XdL4yHHt7aA",
+      "title": "CKA-Agent: When Harmless Pieces Connect | The Trojan Knowledge"
+    },
+    "SEAD": {
+      "id": "oVsVQjsgr3c",
+      "title": "SEAD: State-Grounded Attacks and Defenses for Tool-Using Agents"
+    },
+    "VHD-Play": {
+      "id": "6YN_9V8AI-I",
+      "title": "VHD-Play: Scaling Agentic RL Environments with Verifiable Rewards"
+    },
+    "TurnGate": {
+      "id": "GqC_OM0S0_k",
+      "title": "TurnGate: Safety Depends on Timing | One Turn Too Late"
+    }
+  }
+}
