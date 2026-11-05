@@ -33,9 +33,15 @@ Rebuild from the `murdoku-lab` repository with:
 python scripts/build_play.py --site-url https://everywheresafety.github.io/murdoku/play/
 ```
 
-Replace `murdoku/play/` with the contents of `dist/`. This complete build includes
-30 library cases, 14 locked daily cases, artwork and the Lab's locally hosted Pyodide
+Copy the contents of `dist/` over `murdoku/play/`, keeping its `daily/`, `og/` and `d/`
+folders. This build includes 30 library cases, artwork and the Lab's locally hosted Pyodide
 runtime. Keep the compatibility redirects under `murdoku/exp/`.
+
+Daily cases stay in a private Hugging Face dataset until they are due. The
+`.github/workflows/murdoku-daily.yml` workflow runs once a day and commits them to those
+three folders. A new case opens at 00:00 UTC. See the
+[daily guide](https://github.com/EverywhereSafety/murdoku-lab/blob/main/docs/guides/daily.md#daily-release)
+for its setup and what to do when it fails.
 
 Blog articles are built from the EverywhereSafety `blog` repository with
 `python build.py --output ../EverywhereSafety.github.io/blog`.
