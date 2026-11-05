@@ -1,0 +1,97 @@
+name: Murdoku daily cases
+
+# Publishes each day's Murdoku case to murdoku/play/. The cases live in a private Hugging Face
+# dataset because they hold the answers: only the days now due are downloaded, built and committed.
+# It runs here rather than in murdoku-lab because GitHub turns off the schedule of a public repo
+# that has seen no activity for 60 days, and this repo gets a commit every day.
+# Setup and what to do when it fails: murdoku-lab's docs/guides/daily.md.
+
+on:
+  schedule:
+    - cron: "23 4 * * *" # off the hour: schedules can run late, most of all on the hour
+  workflow_dispatch:
+    inputs:
+      through:
+        description: "Release through this date (YYYY-MM-DD). Empty means two days ahead."
+        required: false
+      generator_repo:
+        description: "Generator repository. Change it to test a fork."
+        default: EverywhereSafety/murdoku-lab
+      generator_ref:
+        description: "Generator branch."
+        default: main
+      site_url:
+        description: "Public address of murdoku/play/."
+        default: https://everywheresafety.github.io/murdoku/play/
+
+concurrency:
+  group: murdoku-daily
+
+permissions:
+  contents: write # commit the released cases
+  id-token: write # exchanged for a one-hour, read-only Hugging Face token
+  pages: write # request the Pages build that a push from this token would not start
+
+jobs:
+  release:
+    # A fork can test this by hand, but only the real site runs on schedule.
+    if: github.event_name == 'workflow_dispatch' || github.repository == 'EverywhereSafety/EverywhereSafety.github.io'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@v4
+        with:
+          path: site
+          sparse-checkout: murdoku/play
+
+      - name: Check out the generator
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ inputs.generator_repo || 'EverywhereSafety/murdoku-lab' }}
+          ref: ${{ inputs.generator_ref || 'main' }}
+          path: murdoku-lab
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install the generator
+        working-directory: murdoku-lab
+        run: |
+          pip install "long-horizon-rl @ git+https://github.com/EverywhereSafety/agent-horizon.git@v0.1.0" -e . -r requirements/data.txt
+          npm ci --ignore-scripts
+
+      - name: Build the cases now due
+        working-directory: murdoku-lab
+        env:
+          HF_OIDC_RESOURCE: datasets/EverywhereSafety/murdoku-daily
+          THROUGH: ${{ inputs.through }}
+          SITE_URL: ${{ inputs.site_url || 'https://everywheresafety.github.io/murdoku/play/' }}
+        run: >-
+          python -m murdoku_lab.setter.daily release
+          --out ../site/murdoku/play
+          --site-url "$SITE_URL"
+          ${THROUGH:+--through "$THROUGH"}
+
+      - name: Publish
+        working-directory: site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add murdoku/play/daily murdoku/play/og murdoku/play/d
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish."
+            exit 0
+          fi
+          latest=$(python -c "import json; print(json.load(open('murdoku/play/daily/manifest.json'))['days'][-1]['date'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Release Murdoku daily cases through $latest"
+          git pull -q --rebase --depth=1 origin main
+          git push -q origin HEAD:main
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" --silent
