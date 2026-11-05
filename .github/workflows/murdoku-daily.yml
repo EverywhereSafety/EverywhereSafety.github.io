@@ -30,7 +30,6 @@ concurrency:
 permissions:
   contents: write # commit the released cases
   id-token: write # exchanged for a one-hour, read-only Hugging Face token
-  pages: write # request the Pages build that a push from this token would not start
 
 jobs:
   release:
@@ -40,23 +39,23 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Check out the website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: site
           sparse-checkout: murdoku/play
 
       - name: Check out the generator
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ inputs.generator_repo || 'EverywhereSafety/murdoku-lab' }}
           ref: ${{ inputs.generator_ref || 'main' }}
           path: murdoku-lab
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
 
@@ -80,8 +79,6 @@ jobs:
 
       - name: Publish
         working-directory: site
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           git add murdoku/play/daily murdoku/play/og murdoku/play/d
           if git diff --cached --quiet; then
@@ -94,4 +91,3 @@ jobs:
           git commit -q -m "Release Murdoku daily cases through $latest"
           git pull -q --rebase --depth=1 origin main
           git push -q origin HEAD:main
-          gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" --silent
