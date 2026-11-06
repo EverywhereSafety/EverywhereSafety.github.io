@@ -704,6 +704,32 @@
    "content_hash": "5cc320e16a8d76aa",
    "thumb": "daily-27.thumb.svg",
    "url": "daily-27.json"
+  },
+  {
+   "n": 28,
+   "id": "daily-28",
+   "date": "2026-11-08",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Tunnel Vision",
+   "blurb": "Between the mountains and the sea, the express makes no stops and keeps one terrible secret.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "9dc5f845816caa8e",
+   "thumb": "daily-28.thumb.svg",
+   "url": "daily-28.json"
   }
  ]
 }
