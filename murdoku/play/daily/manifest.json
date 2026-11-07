@@ -730,6 +730,32 @@
    "content_hash": "9dc5f845816caa8e",
    "thumb": "daily-28.thumb.svg",
    "url": "daily-28.json"
+  },
+  {
+   "n": 29,
+   "id": "daily-29",
+   "date": "2026-11-09",
+   "weekday": "monday",
+   "special": null,
+   "title": "Bad Reviews",
+   "blurb": "A new play, an old rivalry and a door that should have stayed locked.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "8de65573909e0674",
+   "thumb": "daily-29.thumb.svg",
+   "url": "daily-29.json"
   }
  ]
 }
