@@ -45,3 +45,25 @@ for its setup and what to do when it fails.
 
 Blog articles are built from the EverywhereSafety `blog` repository with
 `python build.py --output ../EverywhereSafety.github.io/blog`.
+
+## Analytics
+
+Visitor pages share `assets/analytics.js` and the main GA4 destination
+`G-91FRVY1271`. CKA-Agent and TurnGate retain their project destinations as well.
+Redirect pages and artwork development galleries are excluded. The shared loader
+only runs on the production hostname in top-level pages, so local previews and
+embedded demos do not add site pageviews.
+
+After adding or importing HTML pages, run:
+
+```bash
+python3 scripts/sync_analytics.py
+python3 scripts/sync_analytics.py --check
+node --test tests/analytics.test.cjs
+```
+
+The blog template and the Murdoku player/Lab HTML sources include this loader.
+CI checks coverage to catch future exports that omit it. The player uses History
+API navigation: in the main GA4 web stream, keep Enhanced Measurement → Page
+views → Page changes based on browser history events enabled to measure virtual
+screens. No additional manual `page_view` events are emitted by our loader.
