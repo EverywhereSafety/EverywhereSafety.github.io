@@ -756,6 +756,32 @@
    "content_hash": "8de65573909e0674",
    "thumb": "daily-29.thumb.svg",
    "url": "daily-29.json"
+  },
+  {
+   "n": 30,
+   "id": "daily-30",
+   "date": "2026-11-10",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Bad Blood at Alderwick",
+   "blurb": "The guests dressed for dinner. One of them dressed for murder.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "5331e553da242709",
+   "thumb": "daily-30.thumb.svg",
+   "url": "daily-30.json"
   }
  ]
 }
