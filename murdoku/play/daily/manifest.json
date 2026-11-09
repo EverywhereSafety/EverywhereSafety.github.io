@@ -782,6 +782,32 @@
    "content_hash": "5331e553da242709",
    "thumb": "daily-30.thumb.svg",
    "url": "daily-30.json"
+  },
+  {
+   "n": 31,
+   "id": "daily-31",
+   "date": "2026-11-11",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "A Bitter Harvest",
+   "blurb": "The estate is famous for its rare specimens. Tonight it gains one more.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "fe882d91cbbc98db",
+   "thumb": "daily-31.thumb.svg",
+   "url": "daily-31.json"
   }
  ]
 }
