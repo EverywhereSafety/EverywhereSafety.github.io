@@ -808,6 +808,32 @@
    "content_hash": "fe882d91cbbc98db",
    "thumb": "daily-31.thumb.svg",
    "url": "daily-31.json"
+  },
+  {
+   "n": 32,
+   "id": "daily-32",
+   "date": "2026-11-12",
+   "weekday": "thursday",
+   "special": null,
+   "title": "Ship of Fools",
+   "blurb": "Land is three days off, the radio has gone quiet, and the purser has started counting heads.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "430eb9c4ee12a247",
+   "thumb": "daily-32.thumb.svg",
+   "url": "daily-32.json"
   }
  ]
 }
