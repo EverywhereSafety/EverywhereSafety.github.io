@@ -834,6 +834,32 @@
    "content_hash": "430eb9c4ee12a247",
    "thumb": "daily-32.thumb.svg",
    "url": "daily-32.json"
+  },
+  {
+   "n": 33,
+   "id": "daily-33",
+   "date": "2026-11-13",
+   "weekday": "friday",
+   "special": "Friday the 13th",
+   "title": "Friday the Thirteenth",
+   "blurb": "Nobody at the Halloway believes in curses. Tonight, somebody should have.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "51df05626b20358d",
+   "thumb": "daily-33.thumb.svg",
+   "url": "daily-33.json"
   }
  ]
 }
