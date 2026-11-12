@@ -860,6 +860,32 @@
    "content_hash": "51df05626b20358d",
    "thumb": "daily-33.thumb.svg",
    "url": "daily-33.json"
+  },
+  {
+   "n": 34,
+   "id": "daily-34",
+   "date": "2026-11-14",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Frozen Assets",
+   "blurb": "High in the valley, old friends share a bottle, a story and one very old secret.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     11,
+     22
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "938771b96d9db14a",
+   "thumb": "daily-34.thumb.svg",
+   "url": "daily-34.json"
   }
  ]
 }
