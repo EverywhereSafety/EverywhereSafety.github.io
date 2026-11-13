@@ -886,6 +886,32 @@
    "content_hash": "938771b96d9db14a",
    "thumb": "daily-34.thumb.svg",
    "url": "daily-34.json"
+  },
+  {
+   "n": 35,
+   "id": "daily-35",
+   "date": "2026-11-15",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Late Fees",
+   "blurb": "Nothing ever happens in this college. That is precisely why nobody noticed for hours.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "a990e4863d8cd291",
+   "thumb": "daily-35.thumb.svg",
+   "url": "daily-35.json"
   }
  ]
 }
