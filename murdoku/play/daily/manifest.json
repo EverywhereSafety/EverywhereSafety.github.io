@@ -912,6 +912,32 @@
    "content_hash": "a990e4863d8cd291",
    "thumb": "daily-35.thumb.svg",
    "url": "daily-35.json"
+  },
+  {
+   "n": 36,
+   "id": "daily-36",
+   "date": "2026-11-16",
+   "weekday": "monday",
+   "special": null,
+   "title": "Mulled Wine and Murder",
+   "blurb": "Eight guests, one blizzard and a weekend that nobody will ever forget.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "22cb8cda3a29e9c3",
+   "thumb": "daily-36.thumb.svg",
+   "url": "daily-36.json"
   }
  ]
 }
