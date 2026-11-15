@@ -938,6 +938,32 @@
    "content_hash": "22cb8cda3a29e9c3",
    "thumb": "daily-36.thumb.svg",
    "url": "daily-36.json"
+  },
+  {
+   "n": 37,
+   "id": "daily-37",
+   "date": "2026-11-17",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Sold Out",
+   "blurb": "Everyone in the company knows their lines. Somebody also knew their cue.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "52dedde803219f3d",
+   "thumb": "daily-37.thumb.svg",
+   "url": "daily-37.json"
   }
  ]
 }
