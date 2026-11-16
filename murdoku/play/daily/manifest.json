@@ -964,6 +964,32 @@
    "content_hash": "52dedde803219f3d",
    "thumb": "daily-37.thumb.svg",
    "url": "daily-37.json"
+  },
+  {
+   "n": 38,
+   "id": "daily-38",
+   "date": "2026-11-18",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "The Atlantic Affair",
+   "blurb": "A maiden voyage, a fortune in the purser's safe and a guest list that did not add up.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "6761f3cf212c7766",
+   "thumb": "daily-38.thumb.svg",
+   "url": "daily-38.json"
   }
  ]
 }
