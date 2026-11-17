@@ -990,6 +990,32 @@
    "content_hash": "6761f3cf212c7766",
    "thumb": "daily-38.thumb.svg",
    "url": "daily-38.json"
+  },
+  {
+   "n": 39,
+   "id": "daily-39",
+   "date": "2026-11-19",
+   "weekday": "thursday",
+   "special": null,
+   "title": "Errata",
+   "blurb": "Every scholar here has a theory. Only one of them knows what really happened.",
+   "setting": {
+    "id": "library",
+    "name": "St Aldhelm's College"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     7,
+     15
+    ]
+   },
+   "accent": "#7d2a2e",
+   "content_hash": "51dfe4289ad4b925",
+   "thumb": "daily-39.thumb.svg",
+   "url": "daily-39.json"
   }
  ]
 }
