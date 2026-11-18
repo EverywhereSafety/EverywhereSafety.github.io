@@ -1016,6 +1016,32 @@
    "content_hash": "51dfe4289ad4b925",
    "thumb": "daily-39.thumb.svg",
    "url": "daily-39.json"
+  },
+  {
+   "n": 40,
+   "id": "daily-40",
+   "date": "2026-11-20",
+   "weekday": "friday",
+   "special": null,
+   "title": "Museum Piece",
+   "blurb": "A new acquisition, an old scandal and a trustee who asked one question too many.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "86c2038ac7cedfe0",
+   "thumb": "daily-40.thumb.svg",
+   "url": "daily-40.json"
   }
  ]
 }
