@@ -1042,6 +1042,32 @@
    "content_hash": "86c2038ac7cedfe0",
    "thumb": "daily-40.thumb.svg",
    "url": "daily-40.json"
+  },
+  {
+   "n": 41,
+   "id": "daily-41",
+   "date": "2026-11-21",
+   "weekday": "saturday",
+   "special": null,
+   "title": "Foxglove",
+   "blurb": "Under all that glass the air is warm, still and heavy with secrets.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     11,
+     22
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "594d260f9b31a86c",
+   "thumb": "daily-41.thumb.svg",
+   "url": "daily-41.json"
   }
  ]
 }
