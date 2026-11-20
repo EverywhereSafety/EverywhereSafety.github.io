@@ -1068,6 +1068,32 @@
    "content_hash": "594d260f9b31a86c",
    "thumb": "daily-41.thumb.svg",
    "url": "daily-41.json"
+  },
+  {
+   "n": 42,
+   "id": "daily-42",
+   "date": "2026-11-22",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Too Many Cousins",
+   "blurb": "Fog over the lawns, a cold supper and a butler who saw more than anyone should.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "0612bc34361db7f7",
+   "thumb": "daily-42.thumb.svg",
+   "url": "daily-42.json"
   }
  ]
 }
