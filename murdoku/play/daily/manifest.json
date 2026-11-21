@@ -1094,6 +1094,32 @@
    "content_hash": "0612bc34361db7f7",
    "thumb": "daily-42.thumb.svg",
    "url": "daily-42.json"
+  },
+  {
+   "n": 43,
+   "id": "daily-43",
+   "date": "2026-11-23",
+   "weekday": "monday",
+   "special": null,
+   "title": "Black Tie, Red Herring",
+   "blurb": "Every object here was stolen once. Tonight, someone stole a life.",
+   "setting": {
+    "id": "museum",
+    "name": "The Halloway Museum"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#8e2c32",
+   "content_hash": "f321b428fec88cf2",
+   "thumb": "daily-43.thumb.svg",
+   "url": "daily-43.json"
   }
  ]
 }
