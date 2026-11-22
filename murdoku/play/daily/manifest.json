@@ -1120,6 +1120,32 @@
    "content_hash": "f321b428fec88cf2",
    "thumb": "daily-43.thumb.svg",
    "url": "daily-43.json"
+  },
+  {
+   "n": 44,
+   "id": "daily-44",
+   "date": "2026-11-24",
+   "weekday": "tuesday",
+   "special": null,
+   "title": "Grafted",
+   "blurb": "Beautiful, rare and occasionally poisonous: the plants are not the only dangerous things on the estate.",
+   "setting": {
+    "id": "glasshouse",
+    "name": "Thornbury Glasshouses"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     3,
+     7
+    ]
+   },
+   "accent": "#2f7d5f",
+   "content_hash": "c9aab43577e9f13b",
+   "thumb": "daily-44.thumb.svg",
+   "url": "daily-44.json"
   }
  ]
 }
