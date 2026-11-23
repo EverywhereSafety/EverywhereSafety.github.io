@@ -1146,6 +1146,32 @@
    "content_hash": "c9aab43577e9f13b",
    "thumb": "daily-44.thumb.svg",
    "url": "daily-44.json"
+  },
+  {
+   "n": 45,
+   "id": "daily-45",
+   "date": "2026-11-25",
+   "weekday": "wednesday",
+   "special": null,
+   "title": "Cold Case",
+   "blurb": "Hot chocolate, a roaring blaze and a body that went cold long before morning.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "fe646a8988a6c7c6",
+   "thumb": "daily-45.thumb.svg",
+   "url": "daily-45.json"
   }
  ]
 }
