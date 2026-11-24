@@ -1172,6 +1172,32 @@
    "content_hash": "fe646a8988a6c7c6",
    "thumb": "daily-45.thumb.svg",
    "url": "daily-45.json"
+  },
+  {
+   "n": 46,
+   "id": "daily-46",
+   "date": "2026-11-26",
+   "weekday": "thursday",
+   "special": "Thanksgiving",
+   "title": "Grace Before Murder",
+   "blurb": "The whole family is home for the feast, and somebody will not be giving thanks.",
+   "setting": {
+    "id": "manor",
+    "name": "Alderwick Manor"
+   },
+   "size": "7×7",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     5,
+     10
+    ]
+   },
+   "accent": "#3d6a5b",
+   "content_hash": "4f25ead2d8d362c8",
+   "thumb": "daily-46.thumb.svg",
+   "url": "daily-46.json"
   }
  ]
 }
