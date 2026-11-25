@@ -1198,6 +1198,32 @@
    "content_hash": "4f25ead2d8d362c8",
    "thumb": "daily-46.thumb.svg",
    "url": "daily-46.json"
+  },
+  {
+   "n": 47,
+   "id": "daily-47",
+   "date": "2026-11-27",
+   "weekday": "friday",
+   "special": null,
+   "title": "Cocktails at Sunset",
+   "blurb": "The ship's orchestra knows every waltz. The stewards know every secret. Neither is talking.",
+   "setting": {
+    "id": "liner",
+    "name": "RMS Aurelia"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "medium",
+    "label": "Medium",
+    "minutes": [
+     8,
+     15
+    ]
+   },
+   "accent": "#1e5a7a",
+   "content_hash": "4cee320e6ae02cb8",
+   "thumb": "daily-47.thumb.svg",
+   "url": "daily-47.json"
   }
  ]
 }
