@@ -1224,6 +1224,32 @@
    "content_hash": "4cee320e6ae02cb8",
    "thumb": "daily-47.thumb.svg",
    "url": "daily-47.json"
+  },
+  {
+   "n": 48,
+   "id": "daily-48",
+   "date": "2026-11-28",
+   "weekday": "saturday",
+   "special": null,
+   "title": "A Star Is Dead",
+   "blurb": "A revival of an old melodrama, and a cast with a history nobody wants revived.",
+   "setting": {
+    "id": "theatre",
+    "name": "The Rosalind Theatre"
+   },
+   "size": "8×8",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     11,
+     22
+    ]
+   },
+   "accent": "#9b2335",
+   "content_hash": "c261e1a56b7e8776",
+   "thumb": "daily-48.thumb.svg",
+   "url": "daily-48.json"
   }
  ]
 }
