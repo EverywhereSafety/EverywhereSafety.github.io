@@ -1250,6 +1250,32 @@
    "content_hash": "c261e1a56b7e8776",
    "thumb": "daily-48.thumb.svg",
    "url": "daily-48.json"
+  },
+  {
+   "n": 49,
+   "id": "daily-49",
+   "date": "2026-11-29",
+   "weekday": "sunday",
+   "special": "Sunday Special",
+   "title": "Wrong Side of the Tracks",
+   "blurb": "Eight passengers, one locked train and a long night with no stations.",
+   "setting": {
+    "id": "train",
+    "name": "The Midnight Meridian"
+   },
+   "size": "9×9",
+   "difficulty": {
+    "band": "hard",
+    "label": "Hard",
+    "minutes": [
+     17,
+     38
+    ]
+   },
+   "accent": "#2f5c48",
+   "content_hash": "fb20ad4e45b5cd8f",
+   "thumb": "daily-49.thumb.svg",
+   "url": "daily-49.json"
   }
  ]
 }
