@@ -1276,6 +1276,32 @@
    "content_hash": "fb20ad4e45b5cd8f",
    "thumb": "daily-49.thumb.svg",
    "url": "daily-49.json"
+  },
+  {
+   "n": 50,
+   "id": "daily-50",
+   "date": "2026-11-30",
+   "weekday": "monday",
+   "special": null,
+   "title": "Out in the Cold",
+   "blurb": "A ski champion, an old rival and a long night that only one of them survived.",
+   "setting": {
+    "id": "chalet",
+    "name": "Edelweiss Lodge"
+   },
+   "size": "6×6",
+   "difficulty": {
+    "band": "easy",
+    "label": "Easy",
+    "minutes": [
+     2,
+     6
+    ]
+   },
+   "accent": "#a23b2c",
+   "content_hash": "d2a5afdee288f599",
+   "thumb": "daily-50.thumb.svg",
+   "url": "daily-50.json"
   }
  ]
 }
